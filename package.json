@@ -13,6 +13,7 @@
     "build": "mate-scripts build",
     "deploy": "mate-scripts deploy",
     "update": "mate-scripts update",
+    "watch:sass": "sass --watch src/scss:dist/css",
     "postinstall": "npm run update",
     "test": "npm run lint && npm run test:only"
   },
