@@ -20,13 +20,13 @@
   dialog {
     display: none;
     position: fixed;
-    top: 33%;
+    top: 32%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
-    max-width: 744px; // largura desktop
-    height: auto;
-    background: #d12d35; // sua cor de fundo
+    max-width: 100%; // largura desktop
+    height: 578px;
+    background: gray; // sua cor de fundo
     border: none;
     z-index: 1000;
     overflow: hidden;
@@ -116,10 +116,10 @@
     position: absolute;
     background-image: url('../img/img_mobile/icon_close_mobile.png');
     background-repeat: no-repeat;
-    left: 265px;
+    left: 267px;
     height: 16px;
     width: 16px;
-    top: 25px;
+    top: 20px;
   }
 
   .modal__items {
