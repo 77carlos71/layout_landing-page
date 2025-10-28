@@ -20,13 +20,13 @@
   dialog {
     display: none;
     position: fixed;
-    top: 32%;
+    top: 34%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
-    max-width: 100%; // largura desktop
+    max-width: 100%;
     height: 578px;
-    background: gray; // sua cor de fundo
+    background: #d12d35;
     border: none;
     z-index: 1000;
     overflow: hidden;

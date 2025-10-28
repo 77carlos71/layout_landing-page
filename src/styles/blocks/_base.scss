@@ -2,8 +2,12 @@
 @use 'variables';
 
 // DESKTOP 1260x
+*{
+  box-sizing: border-box;
+}
+
 html {
-  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 // ===== MIXINS BEM =====
@@ -52,6 +56,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .main {
@@ -265,14 +270,14 @@ a {
   align-items: center;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #fff !important; /* White text */
+  color: #fff !important;
   text-decoration: none !important  ;
 
   &:hover,
   &:visited,
   &:active,
   &:focus {
-    color: #fff !important; /* Ensure white color for all states */
+    color: #fff !important;
     text-decoration: none;
   }
 }
